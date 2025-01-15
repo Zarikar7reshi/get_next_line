@@ -20,6 +20,7 @@ clean:
 
 fclean:
 	rm -f $(NAME)
+	rm -f $(BONUS_NAME)
 
 re: fclean all
 
